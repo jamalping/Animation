@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73420F251ABA850800C0AEBD /* JamalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73420F241ABA850800C0AEBD /* JamalViewController.m */; };
+		73420F281ABABF6600C0AEBD /* JamalCLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73420F271ABABF6600C0AEBD /* JamalCLayer.m */; };
+		73420F2B1ABAC06C00C0AEBD /* jamalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73420F2A1ABAC06C00C0AEBD /* jamalView.m */; };
 		73EF41A71AB6D30300FCF98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF41A61AB6D30300FCF98C /* main.m */; };
 		73EF41AA1AB6D30400FCF98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF41A91AB6D30400FCF98C /* AppDelegate.m */; };
 		73EF41AD1AB6D30400FCF98C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF41AC1AB6D30400FCF98C /* ViewController.m */; };
@@ -14,6 +17,7 @@
 		73EF41B21AB6D30400FCF98C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EF41B11AB6D30400FCF98C /* Images.xcassets */; };
 		73EF41B51AB6D30400FCF98C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73EF41B31AB6D30400FCF98C /* LaunchScreen.xib */; };
 		73EF41C11AB6D30400FCF98C /* AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF41C01AB6D30400FCF98C /* AnimationTests.m */; };
+		73EF41CB1AB7D98A00FCF98C /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73EF41CA1AB7D98A00FCF98C /* 111.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73420F231ABA850800C0AEBD /* JamalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JamalViewController.h; sourceTree = "<group>"; };
+		73420F241ABA850800C0AEBD /* JamalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JamalViewController.m; sourceTree = "<group>"; };
+		73420F261ABABF6600C0AEBD /* JamalCLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JamalCLayer.h; sourceTree = "<group>"; };
+		73420F271ABABF6600C0AEBD /* JamalCLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JamalCLayer.m; sourceTree = "<group>"; };
+		73420F291ABAC06C00C0AEBD /* jamalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jamalView.h; sourceTree = "<group>"; };
+		73420F2A1ABAC06C00C0AEBD /* jamalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jamalView.m; sourceTree = "<group>"; };
 		73EF41A11AB6D30300FCF98C /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EF41A51AB6D30300FCF98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73EF41A61AB6D30300FCF98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,7 @@
 		73EF41BA1AB6D30400FCF98C /* AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EF41BF1AB6D30400FCF98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73EF41C01AB6D30400FCF98C /* AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTests.m; sourceTree = "<group>"; };
+		73EF41CA1AB7D98A00FCF98C /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 111.jpg; path = Animation/111.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 		73EF41981AB6D30300FCF98C = {
 			isa = PBXGroup;
 			children = (
+				73EF41CA1AB7D98A00FCF98C /* 111.jpg */,
 				73EF41A31AB6D30300FCF98C /* Animation */,
 				73EF41BD1AB6D30400FCF98C /* AnimationTests */,
 				73EF41A21AB6D30300FCF98C /* Products */,
@@ -85,6 +97,12 @@
 				73EF41A91AB6D30400FCF98C /* AppDelegate.m */,
 				73EF41AB1AB6D30400FCF98C /* ViewController.h */,
 				73EF41AC1AB6D30400FCF98C /* ViewController.m */,
+				73420F231ABA850800C0AEBD /* JamalViewController.h */,
+				73420F241ABA850800C0AEBD /* JamalViewController.m */,
+				73420F261ABABF6600C0AEBD /* JamalCLayer.h */,
+				73420F271ABABF6600C0AEBD /* JamalCLayer.m */,
+				73420F291ABAC06C00C0AEBD /* jamalView.h */,
+				73420F2A1ABAC06C00C0AEBD /* jamalView.m */,
 				73EF41AE1AB6D30400FCF98C /* Main.storyboard */,
 				73EF41B11AB6D30400FCF98C /* Images.xcassets */,
 				73EF41B31AB6D30400FCF98C /* LaunchScreen.xib */,
@@ -201,6 +219,7 @@
 			files = (
 				73EF41B01AB6D30400FCF98C /* Main.storyboard in Resources */,
 				73EF41B51AB6D30400FCF98C /* LaunchScreen.xib in Resources */,
+				73EF41CB1AB7D98A00FCF98C /* 111.jpg in Resources */,
 				73EF41B21AB6D30400FCF98C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73420F2B1ABAC06C00C0AEBD /* jamalView.m in Sources */,
+				73420F251ABA850800C0AEBD /* JamalViewController.m in Sources */,
+				73420F281ABABF6600C0AEBD /* JamalCLayer.m in Sources */,
 				73EF41AD1AB6D30400FCF98C /* ViewController.m in Sources */,
 				73EF41AA1AB6D30400FCF98C /* AppDelegate.m in Sources */,
 				73EF41A71AB6D30300FCF98C /* main.m in Sources */,
@@ -412,6 +434,7 @@
 				73EF41C61AB6D30400FCF98C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73EF41C71AB6D30400FCF98C /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				73EF41C91AB6D30400FCF98C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
