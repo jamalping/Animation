@@ -10,6 +10,8 @@
 		73420F251ABA850800C0AEBD /* JamalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73420F241ABA850800C0AEBD /* JamalViewController.m */; };
 		73420F281ABABF6600C0AEBD /* JamalCLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73420F271ABABF6600C0AEBD /* JamalCLayer.m */; };
 		73420F2B1ABAC06C00C0AEBD /* jamalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73420F2A1ABAC06C00C0AEBD /* jamalView.m */; };
+		73420FBF1ABC095A00C0AEBD /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 73420FBE1ABC095A00C0AEBD /* flower.png */; };
+		73420FC11ABC155000C0AEBD /* Animation.png in Resources */ = {isa = PBXBuildFile; fileRef = 73420FC01ABC155000C0AEBD /* Animation.png */; };
 		73EF41A71AB6D30300FCF98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF41A61AB6D30300FCF98C /* main.m */; };
 		73EF41AA1AB6D30400FCF98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF41A91AB6D30400FCF98C /* AppDelegate.m */; };
 		73EF41AD1AB6D30400FCF98C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF41AC1AB6D30400FCF98C /* ViewController.m */; };
@@ -37,6 +39,8 @@
 		73420F271ABABF6600C0AEBD /* JamalCLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JamalCLayer.m; sourceTree = "<group>"; };
 		73420F291ABAC06C00C0AEBD /* jamalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jamalView.h; sourceTree = "<group>"; };
 		73420F2A1ABAC06C00C0AEBD /* jamalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jamalView.m; sourceTree = "<group>"; };
+		73420FBE1ABC095A00C0AEBD /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		73420FC01ABC155000C0AEBD /* Animation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animation.png; sourceTree = "<group>"; };
 		73EF41A11AB6D30300FCF98C /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EF41A51AB6D30300FCF98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73EF41A61AB6D30300FCF98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		73EF41981AB6D30300FCF98C = {
 			isa = PBXGroup;
 			children = (
+				73420FC01ABC155000C0AEBD /* Animation.png */,
+				73420FBE1ABC095A00C0AEBD /* flower.png */,
 				73EF41CA1AB7D98A00FCF98C /* 111.jpg */,
 				73EF41A31AB6D30300FCF98C /* Animation */,
 				73EF41BD1AB6D30400FCF98C /* AnimationTests */,
@@ -220,6 +226,8 @@
 				73EF41B01AB6D30400FCF98C /* Main.storyboard in Resources */,
 				73EF41B51AB6D30400FCF98C /* LaunchScreen.xib in Resources */,
 				73EF41CB1AB7D98A00FCF98C /* 111.jpg in Resources */,
+				73420FC11ABC155000C0AEBD /* Animation.png in Resources */,
+				73420FBF1ABC095A00C0AEBD /* flower.png in Resources */,
 				73EF41B21AB6D30400FCF98C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
